@@ -20,7 +20,18 @@ int main()
 
     uLCD.printf("\n106061135\n");
 
-    uLCD.rectangle(3,3,3,3,WHITE);
+    uLCD.text_width(4);
+
+    uLCD.text_height(4);
+
+    uLCD.color(GREEN);
+
+    uLCD.locate(1,2);
+
+    uLCD.rectangle(1,1,1,1,1);
+
+
+    
 
 
 }
